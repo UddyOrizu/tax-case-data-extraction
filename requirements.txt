@@ -1,0 +1,17 @@
+fastapi==0.104.1
+uvicorn[standard]==0.22.0
+httpx==0.24.1
+pydantic==2.5.0
+instructor==1.13.0
+cachetools==5.4.0
+tenacity==8.2.2
+scikit-learn==1.3.2
+numpy==1.26.2
+pytest==7.4.2
+sentence-transformers>=5.1.2
+truststore
+bs4 
+requests
+pymupdf 
+openai 
+python-dotenv

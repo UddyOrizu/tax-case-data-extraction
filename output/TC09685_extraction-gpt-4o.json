@@ -1,0 +1,67 @@
+{
+    "metadata": {
+        "case_name": "Milton Park Holdings Ltd & Milton Park Ltd v The Commissioners for HM Revenue and Customs",
+        "neutral_citation": "[2025] UKFTT 01353 (TC)",
+        "case_number": "TC09685",
+        "court_name": "First-tier Tribunal, Tax Chamber",
+        "judgment_date": "2025-11-14",
+        "hearing_dates": [
+            "2024-02-05",
+            "2024-02-06",
+            "2024-02-07",
+            "2024-02-08",
+            "2024-02-09"
+        ],
+        "judges": [
+            "Tribunal Judge Geraint Williams",
+            "Sonia Gable"
+        ],
+        "parties": [
+            "Milton Park Holdings Ltd (Appellant)",
+            "Milton Park Ltd (Appellant)",
+            "The Commissioners for HM Revenue and Customs (Respondent)"
+        ],
+        "representation": [
+            "Mr Laurent Sykes KC of counsel, instructed by Haslers Chartered Accountants for the Appellants",
+            "Mr Michael Jones KC and Mr Harry Winter of counsel, instructed by the General Counsel and Solicitor to HM Revenue and Customs for the Respondents"
+        ],
+        "citation_links": null
+    },
+    "facts": {
+        "detailed_facts": "This appeal concerns closure notices amending the Appellants’ tax returns to deny Corporation Tax deductions for the amortisation of purchased goodwill and consequent group relief. Milton Park Limited (MPL) is the wholly owned subsidiary of Milton Park Holdings Ltd (MPHL). The central issue is whether the accounts of MPHL were drawn up in accordance with generally accepted accounting practice (GAAP) for the purposes of Schedule 29 to the Finance Act 2002 and Part 8 of the Corporation Tax Act 2009. If GAAP compliant accounts would not have recognised goodwill, then no amortisation or impairment of goodwill should be recognised. If goodwill was recognised, the value was agreed to be £51.936m instead of £173m. The parties agreed on the implications of GAAP compliance on tax deductions and group relief. The Tribunal also considered the late admission of witness statements from Janice Ash and Michael McInerney, which were deemed relevant despite being submitted after the deadline.",
+        "key_dates": [
+            "2024-01-24: Appellants applied to admit further witness statements.",
+            "2024-01-15: Witness statements of Janice Ash and Michael McInerney dated.",
+            "2024-01-16: Witness statements provided to HMRC.",
+            "2024-01-22: HMRC considering their position on the witness statements.",
+            "2024-01-29: HMRC objected to the late witness statements.",
+            "2022-07-01: Tribunal Directions issued regarding witness statements.",
+            "2021-11-29: Original deadline for witness statements.",
+            "2004-08-01: Milton Park Partnership formed.",
+            "2005-01-01: Brookdale Healthcare Limited admitted to Milton Park Partnership."
+        ]
+    },
+    "legislation": {
+        "legislation_list": [
+            "Finance Act 2002, Schedule 29",
+            "Corporation Tax Act 2009, Part 8"
+        ]
+    },
+    "overview": {
+        "overview": "The case involves an appeal by Milton Park Holdings Ltd and Milton Park Ltd against HMRC's closure notices that denied Corporation Tax deductions for amortisation of purchased goodwill. The core issue is whether the accounts were prepared in accordance with GAAP, affecting the recognition and valuation of goodwill, and consequently, the tax deductions and group relief available."
+    },
+    "judges_comments": {
+        "dicta": "The Tribunal considered the relevance of late witness statements and the implications of GAAP compliance on the recognition of goodwill and tax deductions.\nThe cited cases were not wrongly decided and remain good authority. The presumption that goodwill belongs to the firm is rebuttable and contingent upon the terms of the partnership agreement and the surrounding factual context. The factual matrix does not support a departure from the general presumption that goodwill is a partnership asset. The position depends on the construction of the relevant agreement.",
+        "reasoning": "The Tribunal evaluated whether the accounts were GAAP compliant, which affected the recognition of goodwill and the associated tax deductions. The Tribunal admitted late witness statements due to their relevance, despite objections from HMRC.\nThe court examined the MCP Deed of Partnership and found that clauses 9.1 and 14.2.1 do not provide MPHL with entitlement to the proceeds of legal goodwill. The court also determined that control over the business rested with the partnership and its Managing Partner, SM, rather than MPHL. The ability to terminate arrangements or withdraw did not constitute control over the business. The court accepted HMRC's submission that MPHL did not control the business as defined by FRS 5.8."
+    },
+    "decision": {
+        "conclusion": "Appeal dismissed.\nThe appeals are dismissed.",
+        "reasoning_summary": "The Tribunal dismissed the appeal as the accounts were not drawn up in accordance with GAAP, affecting the recognition of goodwill and the associated tax deductions.\nMPHL did not acquire control over the operations of the Milton Park care home business and did not retain the risks and rewards of that business following the formation of MCP. Control over the business resided with the partnership and its Managing Partner, SM. MPHL did not have the ability to direct the financial and operating policies of the business with a view to obtaining the economic benefits arising from its activities, as required by FRS 5.8."
+    },
+    "_processing_metadata": {
+        "source_file": "docs\\TC09685.pdf",
+        "processed_at": "2025-11-26T09:51:19.119850",
+        "model": "gpt-4o",
+        "version": "1.0"
+    }
+}
