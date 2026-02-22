@@ -334,6 +334,22 @@ No other code changes are required — `instructor` will automatically populate 
 
 ---
 
+## Possible Improvements
+
+### 1. Sentence-based chunking
+
+The current chunker splits text by a fixed word count with a word-level overlap. This means chunks can start or end mid-sentence, which can confuse the LLM and cause information to be dropped or duplicated at boundaries. Replacing the word-based splitter in `split_into_sections()` with a sentence-aware approach — using a library like [`spacy`](https://spacy.io/) or [`nltk.sent_tokenize`](https://www.nltk.org/) — would ensure every chunk begins and ends at a clean sentence boundary, producing more coherent context for the model and reducing noise in the merged output.
+
+### 2. LLM reconciliation pass for narrative fields
+
+The `merge_extraction_data()` function merges long narrative fields (`detailed_facts`, `reasoning`, `dicta`) by simple string concatenation — appending new content if it isn't already a substring of the accumulated value. Across many overlapping chunks, this can produce fragmented or loosely ordered prose. A better approach would be a final reconciliation pass: after all chunks are merged, send the combined draft of each narrative field back to the LLM with a prompt to produce a single coherent, deduplicated summary. This would significantly improve the quality of the `facts` and `judges_comments` sections in particular.
+
+### 3. Parallel multi-PDF processing
+
+The outer loop in `main()` processes each PDF sequentially — one file finishes before the next begins. The `parallel_chunks` flag already enables parallelism *within* a single PDF, but for batch runs across many cases this is a bottleneck. Wrapping the per-file `process_pdf_file()` calls in a `ThreadPoolExecutor` (or `asyncio.gather` with an async client) at the `main()` level would allow multiple PDFs to be processed concurrently, subject to API rate limits.
+
+---
+
 ## License
 
 MIT
